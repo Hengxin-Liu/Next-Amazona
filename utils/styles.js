@@ -6,8 +6,15 @@ const useStyles = makeStyles({
     //to change child element
       '& a': {
           color: '#ffffff',
-          marginleft:10,
+          marginLeft:10,
         }, 
+    },
+    brand: {
+     fontWeight: 'bold',
+     fontSize: '1.5rem',
+    },
+    grow: {
+      flexGrow: 1,
     },
     main: {
         minHeight: '80vh',
