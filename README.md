@@ -8,10 +8,14 @@
   add _documents.js
   add code to fix styling issue
 # List Products
-  add data.js
-  add images
+  1.add data.js
+  2.add images
   render products
 # Add header links (passHref passes href to Link tag)
   Add cart and login link
   use next/link and mui/link
   add css classes for header links
+# Route Product Details Page
+   Make Product cards linkable
+   Create /product/[slug] route
+   find product based on slug

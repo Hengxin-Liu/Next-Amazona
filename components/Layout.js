@@ -1,6 +1,6 @@
 import React from 'react';
 import Head from 'next/head';
-import NextLink from "next/link";
+import NextLink from 'next/link';
 import { AppBar, Container, Link, Toolbar, Typography} from '@material-ui/core';
 import useStyles from '../utils/styles.js';
 
