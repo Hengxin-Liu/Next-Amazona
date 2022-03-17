@@ -26,7 +26,7 @@ return (
        <Grid item md={6} xs={12}>
          <Image src={product.image}
          alt={product.name}
-         width={600}
+         width={590}
          height={640}
          Layout="responsive"
          ></Image>
@@ -35,6 +35,7 @@ return (
         <List>
         <ListItem>
       {/* change h1 to expect search engine optimization caught the lines*/}
+          <Typography component="h1" variant="h1">{product.name}</Typography>
           <Typography component="h1">{product.name}</Typography>
          </ListItem>
          <ListItem>
